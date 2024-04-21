@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px;
+    /* background-color: aquamarine; */
+}
+
+.navbar .left-side{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar .right-side{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right-side .content{
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right-side .content .search{
+    margin-right: 30px;
+}
+
+.navbar .right-side .content .login-text{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.navbar .left-side .items .list-item{
+    list-style: none;
+    display: flex;
+    /* background-color: chartreuse; */
+    margin: 10px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.item a { 
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.item .active {
+        /* text-shadow: 0px 4px #00000040; */
+        filter: drop-shadow(0px 4px 1.5px rgba(0,0,0,0.3));
+    
+}
+
+
+.navbar .left-side .items .list-item li{
+    margin: 25px;
+}
+
+.header{
+    background-image: url(../Image/Article\ Image.png);
+    height: 500px;
+    margin-top: 20px;
+}
+.header .header-content{
+    background-color: rgb(255, 255, 255);
+    width: 520px;
+    height: 80%;
+    margin-left: 40px;
+}
+
+.header .header-content h4{
+    padding: 20px;
+    margin: 10px;
+    /* background-color: aquamarine; */
+}
+.header .header-content h2{
+    padding: 20px;
+    margin: 10px;
+    /* background-color: aquamarine; */
+    font-size: 30px;
+}
+.header .header-content p{
+    padding: 20px;
+    margin: 10px;
+    /* background-color: aquamarine; */
+    font-size: 20px;
+}
+
+.color2{
+    color: rgb(142, 142, 142);
+}
+
+.title{
+    /* background-color: aqua; */
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title hr{
+    width: 100px;
+    margin-left: 45.7%;
+    color: #000000;
+}
+
+
+.picks .picks-content{
+    /* background-color: rgb(34, 0, 255); */
+    margin: 10px;
+}
+.picks .picks-content .box{
+    /* background-color: rgb(0, 255, 115); */
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picks .picks-content .box .box-img img{
+    border-radius: 20px;
+}
+
+.picks .picks-content .box .description h2{
+    margin: 25px;
+}
+.picks .picks-content .box .description h4{
+    margin: 25px;
+}
+.picks .picks-content .box .description p{
+    margin: 25px;
+    font-size: 17px;
+}
+
+.second-main{
+    background-image: url(../Image/photo_2024-01-30_01-26-05.jpg);
+    height: 570px;
+    
+}
+
+.second-main .main-content{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 520px;
+    float: right;
+}
+.second-main .main-content h2{
+    margin: 25px;
+    font-size: 30px;
+}
+
+.second-main .main-content h4{
+    margin: 25px;
+}
+
+.second-main .main-content p{
+    margin: 25px;
+    font-size: 17px;
+}
+
+h6 {
+    display: flex;
+    color: #1C1C1C80;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.main-content {
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+/* .Content-imgs {
+    background-color: blanchedalmond;
+} */
+
+
+.Articles {
+    /* background-color: red; */
+    padding: 10px;
+    width: 75%;
+    
+
+}
+
+.Article {
+    /* background-color: purple; */
+    padding: 60px;
+    margin: 30px;
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+}
+
+.Recent-Posts {
+    /* background-color: black; */
+    margin-top: 80px;
+    display: flex;
+    
+}
+
+.img-art {
+    width: 280px;
+}
+
+.Tags {
+    /* background-color: aqua; */
+    /* width: 900px; */
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 25%;
+    text-align: center;
+}
+
+.Tags p {
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+
+
+    
